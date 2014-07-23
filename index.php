@@ -212,7 +212,7 @@ if(!empty($_GET['json'])) {
             </div>
             <div class="right">
                 <b>Disk:</b> <span id="dt-disk-used"><?php echo round($disk_used / 1024, 2); ?></span> GB / <?php echo round($disk_total / 1024, 2); ?> GB<br>
-                <b>Memory:</b> <span id="dt-mem-used"><?php echo (512 * round(round($mem_used) / 512)); ?></span> MB / <?php echo (512 * round(round($mem_total) / 512)); ?> MB<br>
+                <b>Memory:</b> <span id="dt-mem-used"><?php echo round($mem_used); ?></span> MB / <?php echo (512 * round(round($mem_total) / 512)); ?> MB<br>
                 <?php if($swap_total !== "0") { ?>
                     <b>Swap:</b> <span id="dt-swap-used"><?php echo $swap_used ?></span> MB / <?php echo $swap_total ?> MB<br>
                 <?php } else { ?>

@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="944ba231-239c-4b82-a283-044335e6324d" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\Tyler\Desktop\Server-Landing-Page\jqknob.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Thumbs.db" afterPath="$PROJECT_DIR$/img/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Server-Landing-Page.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +28,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="0" selection-start="4926" selection-end="8901" vertical-scroll-proportion="0.31993008" vertical-offset="2503" max-vertical-offset="4284">
+            <state line="209" column="54" selection-start="7105" selection-end="7105" vertical-scroll-proportion="-7.1923075" vertical-offset="3366" max-vertical-offset="4284">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="17" selection-end="17" vertical-scroll-proportion="0.037861917" vertical-offset="0" max-vertical-offset="898">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../php-landing_/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="355" column="133" selection-start="9166" selection-end="9166" vertical-scroll-proportion="-23.384615" vertical-offset="5427" max-vertical-offset="6324">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1304" max-vertical-offset="2227">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,7 +69,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../acadia/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="246" column="8" selection-start="8833" selection-end="8874" vertical-scroll-proportion="-28.615385" vertical-offset="3438" max-vertical-offset="4335">
+            <state line="217" column="103" selection-start="7379" selection-end="7417" vertical-scroll-proportion="-9.653846" vertical-offset="3438" max-vertical-offset="4335">
               <folding />
             </state>
           </provider>
@@ -56,16 +87,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../cosmos/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="14" selection-start="964" selection-end="964" vertical-scroll-proportion="-9.807693" vertical-offset="255" max-vertical-offset="2618">
+            <state line="69" column="40" selection-start="2032" selection-end="2032" vertical-scroll-proportion="78.46154" vertical-offset="3213" max-vertical-offset="4335">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../php-landing/index.php">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../cosmos/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="306" column="42" selection-start="7548" selection-end="7548" vertical-scroll-proportion="-33.846153" vertical-offset="4322" max-vertical-offset="6324">
+            <state line="39" column="4" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
               <folding />
             </state>
           </provider>
@@ -87,16 +118,20 @@
         <option value="$PROJECT_DIR$/../acadia/css/main.css" />
         <option value="$PROJECT_DIR$/../acadia/index.php" />
         <option value="$PROJECT_DIR$/../php-landing/index.php" />
+        <option value="$PROJECT_DIR$/../cosmos/index.php" />
+        <option value="$PROJECT_DIR$/../cosmos/css/main.css" />
+        <option value="$PROJECT_DIR$/../php-landing_/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -142,6 +177,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server-Landing-Page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server-Landing-Page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -176,7 +225,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -184,7 +233,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35139093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -223,30 +272,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cosmos/index.php">
+    <entry file="file://$PROJECT_DIR$/img/bkg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="14" selection-start="964" selection-end="964" vertical-scroll-proportion="-9.807693" vertical-offset="255" max-vertical-offset="2618">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1304" max-vertical-offset="2227">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cosmos/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="4" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../php-landing/index.php">
+    <entry file="file://$PROJECT_DIR$/../cosmos/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="42" selection-start="7548" selection-end="7548" vertical-scroll-proportion="-33.846153" vertical-offset="4322" max-vertical-offset="6324">
+        <state line="69" column="40" selection-start="2032" selection-end="2032" vertical-scroll-proportion="78.46154" vertical-offset="3213" max-vertical-offset="4335">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../acadia/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="8" selection-start="8833" selection-end="8874" vertical-scroll-proportion="-28.615385" vertical-offset="3438" max-vertical-offset="4335">
+        <state line="217" column="103" selection-start="7379" selection-end="7417" vertical-scroll-proportion="-9.653846" vertical-offset="3438" max-vertical-offset="4335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php-landing_/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="355" column="133" selection-start="9166" selection-end="9166" vertical-scroll-proportion="-23.384615" vertical-offset="5427" max-vertical-offset="6324">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="0" selection-start="4926" selection-end="8901" vertical-scroll-proportion="0.31993008" vertical-offset="2503" max-vertical-offset="4284">
+        <state line="209" column="54" selection-start="7105" selection-end="7105" vertical-scroll-proportion="-7.1923075" vertical-offset="3366" max-vertical-offset="4284">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="17" selection-end="17" vertical-scroll-proportion="0.037861917" vertical-offset="0" max-vertical-offset="898">
           <folding />
         </state>
       </provider>
