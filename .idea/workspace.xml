@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="944ba231-239c-4b82-a283-044335e6324d" name="Default" comment="">
       <change type="DELETED" beforePath="C:\Users\Tyler\Desktop\Server-Landing-Page\jqknob.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/Thumbs.db" afterPath="$PROJECT_DIR$/img/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Server-Landing-Page.iws" />
@@ -37,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="17" selection-end="17" vertical-scroll-proportion="0.037861917" vertical-offset="0" max-vertical-offset="898">
+            <state line="2" column="6" selection-start="17" selection-end="17" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../php-landing/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="62" selection-start="1359" selection-end="1359" vertical-scroll-proportion="-9.807693" vertical-offset="510" max-vertical-offset="2992">
               <folding />
             </state>
           </provider>
@@ -66,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../acadia/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="217" column="103" selection-start="7379" selection-end="7417" vertical-scroll-proportion="-9.653846" vertical-offset="3438" max-vertical-offset="4335">
+            <state line="28" column="19" selection-start="774" selection-end="774" vertical-scroll-proportion="0.4936479" vertical-offset="204" max-vertical-offset="4318">
               <folding />
             </state>
           </provider>
@@ -116,22 +123,22 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/../acadia/css/main.css" />
-        <option value="$PROJECT_DIR$/../acadia/index.php" />
-        <option value="$PROJECT_DIR$/../php-landing/index.php" />
         <option value="$PROJECT_DIR$/../cosmos/index.php" />
         <option value="$PROJECT_DIR$/../cosmos/css/main.css" />
         <option value="$PROJECT_DIR$/../php-landing_/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/../php-landing/index.php" />
+        <option value="$PROJECT_DIR$/../acadia/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -225,7 +232,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -233,7 +240,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35139093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -277,15 +284,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1304" max-vertical-offset="2227">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../cosmos/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="4" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
@@ -296,13 +294,6 @@
     <entry file="file://$PROJECT_DIR$/../cosmos/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="40" selection-start="2032" selection-end="2032" vertical-scroll-proportion="78.46154" vertical-offset="3213" max-vertical-offset="4335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../acadia/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="103" selection-start="7379" selection-end="7417" vertical-scroll-proportion="-9.653846" vertical-offset="3438" max-vertical-offset="4335">
           <folding />
         </state>
       </provider>
@@ -323,7 +314,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="17" selection-end="17" vertical-scroll-proportion="0.037861917" vertical-offset="0" max-vertical-offset="898">
+        <state line="2" column="6" selection-start="17" selection-end="17" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../php-landing/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="62" selection-start="1359" selection-end="1359" vertical-scroll-proportion="-9.807693" vertical-offset="510" max-vertical-offset="2992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1304" max-vertical-offset="2227">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../acadia/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="19" selection-start="774" selection-end="774" vertical-scroll-proportion="0.4936479" vertical-offset="204" max-vertical-offset="4318">
           <folding />
         </state>
       </provider>
