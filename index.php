@@ -225,8 +225,8 @@ if(!empty($_GET['json'])) {
             <p><?php echo $server_desc; ?></p>
             <footer>
                 <div class="left">
-                    <?php if(!$windows) { ?>
-                        Uptime: <?php echo $uptime; ?>&emsp;
+                    <?php if(!$windows && !empty($uptime)) { ?>
+                        Uptime: <span id="uptime"><?php echo $uptime; ?></span>&emsp;
                     <?php } ?>
                     Disk usage: <input id="k-disk" value="<?php echo $disk; ?>">&emsp;
                     Memory: <input id="k-memory" value="<?php echo $memory; ?>">&emsp;
