@@ -171,18 +171,17 @@ if(!empty($_GET['json'])) {
                     $('#uptime').text(data.uptime);
                     $('#k-cpu').val(data.cpu).trigger("change");
                     $('#k-memory').val(data.memory).trigger("change");
-                    <?php if($swap_total !== "0") { ?>
-                    $('#k-swap').val(data.swap).trigger("change");
-                    <?php } ?>
+                    if(data.swap_total) {
+                        $('#k-swap').val(data.swap).trigger("change");
+                    }
 
                     // Update details
-                    $('#dt-disk-used').text(Math.round(data.disk_used / 10.24) / 100);
+                    $('#dt-disk-used').text(Math.round(data.disk_used / 10485.76) / 100);
                     $('#dt-mem-used').text(data.memory_used);
                     $('#dt-num-cpus').text(data.num_cpus);
-                    <?php if($swap_total !== "0") { ?>
-                    $('#dt-swap_used').text(data.swap_used);
-                    <?php } ?>
-
+                    if(data.swap_total) {
+                        $('#dt-swap_used').text(data.swap_used);
+                    }
                     window.setTimeout(update, 3000);
 
                 },'json');
@@ -212,7 +211,7 @@ if(!empty($_GET['json'])) {
             </div>
             <div class="right">
                 <b>Disk:</b> <span id="dt-disk-used"><?php echo round($disk_used / 1048576, 2); ?></span> GB / <?php echo round($disk_total / 1048576, 2); ?> GB<br>
-                <b>Memory:</b> <span id="dt-mem-used"><?php echo (512 * round(round($mem_used) / 512)); ?></span> MB / <?php echo (512 * round(round($mem_total) / 512)); ?> MB<br>
+                <b>Memory:</b> <span id="dt-mem-used"><?php echo round($mem_used); ?></span> MB / <?php echo (512 * round(round($mem_total) / 512)); ?> MB<br>
                 <?php if($swap_total !== "0") { ?>
                     <b>Swap:</b> <span id="dt-swap-used"><?php echo $swap_used ?></span> MB / <?php echo $swap_total ?> MB<br>
                 <?php } else { ?>
