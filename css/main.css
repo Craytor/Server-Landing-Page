@@ -19,7 +19,6 @@ body {
     height: 100%;
 
     background: #222;
-    background-image: url(../img/bkg.jpg);
     background-size: cover;
 
     -webkit-transition: all 0.3s;

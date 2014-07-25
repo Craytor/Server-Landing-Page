@@ -3,6 +3,11 @@
 // To change these values, create a file called config.php and copy/paste them there.
 $server_name = "Server Name";
 $server_desc = "Description";
+$server_hostname = $windows ? $_SERVER['SERVER_NAME'] : `hostname -f`;;
+$server_ip = $_SERVER['SERVER_ADDR'];
+
+// Please put the link to your image here using a FQDN.
+$server_bkg = "http://myserver.com/img/image.png";
 
 if(is_file("config.php")) {
     include "config.php";
@@ -137,6 +142,9 @@ if(!empty($_GET['json'])) {
 
     header("Content-type: application/json");
     exit(json_encode(array(
+        'hostname' => $server_hostname,
+        'ip' => $server_ip,
+        'img' => $server_bkg,
         'uptime' => $uptime,
         'disk' => $disk,
         'disk_total' => $disk_total,
@@ -163,6 +171,11 @@ if(!empty($_GET['json'])) {
         <script src="js/jqknob.js"></script>
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <style>
+            #wrapper {
+                background-image: url(../img/bkg.jpg);
+            }
+        </style>
         <script>
             function update() {
                 $.post('<?php echo basename(__FILE__); ?>?json=1', function(data) {
@@ -205,8 +218,8 @@ if(!empty($_GET['json'])) {
     <body>
         <div class="menu push-menu-bottom">
             <div class="left">
-                <h2><?php echo $windows ? $_SERVER['SERVER_NAME'] : `hostname -f`; ?></h2>
-                <?php echo $_SERVER['SERVER_ADDR']; ?>
+                <h2><?php echo $server_hostname; ?></h2>
+                <?php echo $server_ip; ?>
 
             </div>
             <div class="right">
