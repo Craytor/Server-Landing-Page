@@ -142,9 +142,6 @@ if(!empty($_GET['json'])) {
 
     header("Content-type: application/json");
     exit(json_encode(array(
-        'hostname' => $server_hostname,
-        'ip' => $server_ip,
-        'img' => $server_bkg,
         'uptime' => $uptime,
         'disk' => $disk,
         'disk_total' => $disk_total,
