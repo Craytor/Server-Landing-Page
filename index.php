@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 // To change these values, create a file called config.php and copy/paste them there.
 $server_name = "Server Name";
 $server_desc = "Description";
