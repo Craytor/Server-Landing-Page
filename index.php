@@ -141,6 +141,8 @@ if(!empty($_GET['json'])) {
     }
 
     header("Content-type: application/json");
+    
+    // Pass data to the site to use for the knobs and general info.
     exit(json_encode(array(
         'uptime' => $uptime,
         'disk' => $disk,
