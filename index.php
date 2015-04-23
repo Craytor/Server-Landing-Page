@@ -3,7 +3,7 @@ error_reporting(0);
 // To change these values, create a file called config.php and copy/paste them there.
 $server_name = "Server Name";
 $server_desc = "Description";
-$server_hostname = $windows ? $_SERVER['SERVER_NAME'] : `hostname -f`;;
+$server_hostname = $windows ? $_SERVER['SERVER_NAME'] : `hostname -f`;
 $server_ip = $_SERVER['SERVER_ADDR'];
 
 // Please put the link to your image here using a FQDN.
